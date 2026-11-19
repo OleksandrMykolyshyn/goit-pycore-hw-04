@@ -14,7 +14,7 @@ def print_dir_tree(path: Path, indent: str = ""):
 
 def main():
     if len(sys.argv) != 2:
-        print(f"{Fore.RED} Використання: python task_3.py "<шлях_до_директорії>"")
+        print(f"{Fore.RED} Використання: python task_3.py <шлях_до_директорії>")
         return
 
     dir_path = Path(sys.argv[1])
